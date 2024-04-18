@@ -63,7 +63,6 @@ public class Main
     }
     public static int binarySearch(int[] arr, int left, int right, int target)
     {
-        resultBinary = 0;
         System.out.println(binaryTracker());
         int middle = (left + right) / 2; //Split the array in half.
         if (target == arr[middle]) return middle; //You found it!
